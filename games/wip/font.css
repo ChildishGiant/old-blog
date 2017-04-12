@@ -1,0 +1,5 @@
+@fontface{
+	font-family:pf_arma_five;
+	src: url('pf_arma_five.ttf') format('truetype')
+	src: url('pf_arma_five.svg#pf_arma_five') format('svg')
+}

@@ -1,0 +1,152 @@
+@import 'https://fonts.googleapis.com/css?family=Ubuntu';
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+body {
+	background-color: 424242;
+	font-family: "Ubuntu", sans-serif;;
+	font-size: 15;
+	color: FFF;
+	margin: 0 0 0 0;
+	display: -webkit-flex;
+	-webkit-flex: 1; /* Safari 6.1+ */
+	-ms-flex: 1; /* IE 10 */
+	flex: 1;
+	-webkit-flex-direction: row-reverse;
+}
+
+h2#post{
+	font-size: 20;
+	font-weight: normal;
+	display: inline;
+	color: #baebae;
+}
+
+hr{
+	border-color: #BAEBAE; /*Chrome and safari*/
+	background-color: #BAEBAE; /*Firefox and opera*/
+	color: #BAEBAE; /*IE7+*/
+}
+
+span#date{
+	font-size: 15;
+	float: right;
+	text-align: right;
+	color: #E0E0E0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.postContainer{
+	width: 80%;
+	padding: 10;
+}
+
+.post{
+	width: 75%;
+	margin: 5 7.5% 20 7.5%;
+	height: auto;
+	padding: 5 10 5 10;
+	background-color: rgba(148, 148, 148, 0.67);
+}
+
+.post ul{
+  list-style: none;
+	padding: 0 0 0 10;
+}
+
+.fill{
+	left: 0;
+	padding-left: 10;
+	display: inline-block;
+	width: 20%;
+	min-width: 175;
+	height: 100%;
+}
+
+.side{
+	left: 0;
+	position: fixed;
+	padding: 10;
+	display: inline-block;
+	width: 20%;
+	min-width: 175;
+	background-color: #606060;
+	height: 100%;
+}
+
+.side ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.side a:link, a:visited {
+	min-width: 135;
+  display: block;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  padding: 4px;
+}
+
+.logo{
+	width: 95%;
+	text-align: center;
+  text-justify: auto;
+}
+
+.nav{
+	width: 95%;
+}
+
+.pages{
+	text-align: center;
+}
+
+.share{
+	align: right;
+	text-align: right;
+}
+
+a:link, a:visited {
+	color: fff;
+  font-weight: bold;
+  text-decoration: none;
+	-o-transition: color .2s ease-out, background .5s ease-in;
+	-ms-transition: color .2s ease-out, background .5s ease-in;
+	-moz-transition: color .2s ease-out, background .5s ease-in;
+	-webkit-transition: color .2s ease-out, background .5s ease-in;
+	/* ...and now override with proper CSS property */
+	transition: color .2s ease-out, background 1s ease-in;
+}
+
+a:hover, a:active {
+	color: A8A8A8;
+}
+
+h1 {
+  font-size: 50px;
+  position: relative;
+  display: inline-block;
+  width: 160;
+}
+h1:before {
+  content: " ";
+  position: absolute;
+  border-left: 4px solid #BAEBAE;
+  border-top: 4px solid #BAEBAE;
+  border-bottom: 4px solid #BAEBAE;
+  padding: 5px;
+  top: -10px;
+  bottom: -10px;
+  left: -5px;
+}
+h1:after {
+  content: " ";
+  position: absolute;
+  border-right: 4px solid #BAEBAE;
+  border-top: 4px solid #BAEBAE;
+  border-bottom: 4px solid #BAEBAE;
+  padding: 5px;
+  top: -10px;
+  bottom: -10px;
+  right: -5px;
+}
